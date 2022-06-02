@@ -2,7 +2,7 @@
 
 let evenNuns = [];
 function returnEvenValues(array){
-    for(let i = 0; i < array.lenght;){
+    for(let i = 0; i < array.length;){
         if(array[i] % 2 === 0){
             evenNuns.push(array[i]);
         }
